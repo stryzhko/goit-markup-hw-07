@@ -1,9 +1,9 @@
 
-.menu-benefits {
+.benefits {
     display: flex;
 }
 
-.menu-benefits__item {
+.benefits__item {
     flex-basis: calc((100% - 60px) / 4);
 
     &:not(:last-child) {
@@ -13,7 +13,7 @@
 
 
 
-.benefits-icon-wrapper {
+.benefits__icon-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,14 +24,14 @@
     margin-bottom: 30px;
 }
 
-.menu-benefits__type-title {
+.benefits__title {
     @include font($lh: 16px);
     text-transform: uppercase;
 
     margin-bottom: 10px;
 }
 
-.menu-benefits__description {
+.benefits__description {
 @include font();
     color: var(--secondary-text-color);
 }

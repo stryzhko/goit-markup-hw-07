@@ -1,4 +1,4 @@
-.logo-link {
+.logo {
     display: inline-block;
     font-family: var(--secondary-font);
     font-weight: 700;
@@ -12,18 +12,18 @@
             color: var(--accent-color-link);
         }
 }
-.logo-link__text {
+.logo__text {
     color: var(--color-logo-span);
 }
 
-.logo-link_header {
+.logo__page-header {
     color: var(--color-logo-header);
     margin-right: 93px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
 
-.logo-link_footer {
+.logo__footer {
     color: var(--color-logo-footer);
     margin-bottom: 20px;
 }
